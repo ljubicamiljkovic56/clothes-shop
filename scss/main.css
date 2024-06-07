@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ljubica\/Desktop\/Projects\/Clothes\%20Shop\/clothes-shop\/scss\/partials\/_global\.scss}line{font-family:\000031}}
+body {
+  font-family: 'Istok Web', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #eee;
+  color: #333;
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ljubica\/Desktop\/Projects\/Clothes\%20Shop\/clothes-shop\/scss\/partials\/_global\.scss}line{font-family:\0000310}}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ljubica\/Desktop\/Projects\/Clothes\%20Shop\/clothes-shop\/scss\/partials\/_global\.scss}line{font-family:\0000314}}
+a, a:hover, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ljubica\/Desktop\/Projects\/Clothes\%20Shop\/clothes-shop\/scss\/partials\/_global\.scss}line{font-family:\0000319}}
+a {
+  color: #666666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Ljubica\/Desktop\/Projects\/Clothes\%20Shop\/clothes-shop\/scss\/partials\/_global\.scss}line{font-family:\0000321}}
+  a:hover {
+    color: #000000; }
+
+/*# sourceMappingURL=main.css.map */
