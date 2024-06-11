@@ -1,0 +1,44 @@
+.main-header {
+    .top-bar {
+        padding: 10px 0;
+        a {
+            font-size: 14px;
+            color: $main-color;
+            &:hover {
+                color: $link-hover;
+            }
+        }
+
+        .phone-info {
+            float: left;
+        }
+
+        .login {
+            float: right;
+            text-transform: uppercase;
+        }
+    }
+
+    .navbar {
+        background-color: #fff;
+        margin-bottom: 0;
+        border: none;
+        .navbar-toggle {
+            float: left;
+            padding: 0;
+            margin: 0;
+            margin-top: 17px;
+            margin-left: 15px;
+            border: none;
+            .icon-bar {
+                width: 20px;
+                height: 4px;
+                @include border-radius(2px);
+                background-color: #000;
+                & + .icon-bar {
+                    margin-top: 2px;
+                }
+            }
+        }
+    }
+}
