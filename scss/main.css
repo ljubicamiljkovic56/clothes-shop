@@ -1,22 +1,122 @@
 @import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400;700&display=swap");
 body {
-  font-family: 'Istok Web', sans-serif;
+  font-family: "Istok Web", sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: #eee;
   color: #333;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 a, a:hover, a:focus, a:visited {
   text-decoration: none;
-  outline: none; }
+  outline: none;
+}
 
 a {
-  color: #666666; }
-  a:hover {
-    color: #000000; }
+  color: #666666;
+}
+a:hover {
+  color: #000000;
+}
 
-/*# sourceMappingURL=main.css.map */
+.main-header .top-bar {
+  padding: 10px 0;
+}
+.main-header .top-bar a {
+  font-size: 14px;
+  color: #333;
+}
+.main-header .top-bar a:hover {
+  color: #000000;
+}
+.main-header .top-bar .phone-info {
+  float: left;
+}
+.main-header .top-bar .login {
+  float: right;
+  text-transform: uppercase;
+}
+.main-header .navbar {
+  background-color: #fff;
+  margin-bottom: 0;
+  border: none;
+}
+.main-header .navbar .navbar-toggle {
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-top: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: none;
+}
+.main-header .navbar .navbar-toggle .icon-bar {
+  width: 20px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #000;
+}
+.main-header .navbar .navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 2px;
+}
+.main-header .navbar > .container {
+  position: relative;
+}
+.main-header .logo {
+  width: 58px;
+  margin-top: 17px;
+  margin-bottom: 0;
+  float: left;
+}
+.main-header .search-cart-holder {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+.main-header .search-cart-holder .search, .main-header .search-cart-holder .cart {
+  display: inline-block;
+}
+.main-header .search {
+  position: relative;
+  margin-right: 10px;
+  top: 4px;
+}
+.main-header .search .form-control {
+  display: block;
+  width: 140px;
+  height: 24px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  box-shadow: none;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-left: 4px;
+}
+.main-header .search .form-control:hover {
+  border-bottom-color: #000000;
+}
+.main-header .search .btn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-image: url("../img/search-icon.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 17px;
+  height: 18px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.main-header .search .btn:focus {
+  outline: none;
+}
+.main-header .search .btn:active {
+  box-shadow: none;
+}/*# sourceMappingURL=main.css.map */
