@@ -41,7 +41,9 @@ a {
     margin: 0;
     margin-top: 17px;
     margin-left: 15px;
-    border: none; }
+    margin-right: 15px;
+    border: none;
+    background-color: #000; }
     .main-header .navbar .navbar-toggle .icon-bar {
       width: 20px;
       height: 4px;
@@ -51,5 +53,76 @@ a {
       background-color: #000; }
       .main-header .navbar .navbar-toggle .icon-bar + .icon-bar {
         margin-top: 2px; }
+  .main-header .navbar > .container {
+    position: relative; }
+.main-header .logo {
+  width: 58px;
+  margin-top: 17px;
+  margin-bottom: 0;
+  float: left; }
+.main-header .search-cart-holder {
+  position: absolute;
+  top: 14px;
+  right: 23px; }
+  .main-header .search-cart-holder .search, .main-header .search-cart-holder .cart {
+    display: inline-block; }
+.main-header .search {
+  position: relative;
+  margin-right: 10px; }
+  .main-header .search .form-control {
+    display: block;
+    width: 140px;
+    height: 24px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-left: 4px; }
+    .main-header .search .form-control:hover {
+      border-bottom-color: #000000; }
+  .main-header .search .btn {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-image: url("../img/search-icon.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 17px;
+    height: 18px;
+    padding: 0;
+    border: none;
+    background-color: transparent; }
+    .main-header .search .btn:focus {
+      outline: none; }
+    .main-header .search .btn:active {
+      box-shadow: none; }
+.main-header .cart {
+  position: relative; }
+  .main-header .cart .badge {
+    position: absolute;
+    padding: 4px 6px 3px;
+    background-color: #cc0000;
+    right: -8px;
+    bottom: -8px; }
+.main-header .nav {
+  padding-bottom: 5px; }
+  .main-header .nav li {
+    text-align: center; }
+    .main-header .nav li a {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 5px;
+      border-bottom: 2px solid transparent;
+      text-transform: uppercase;
+      display: inline-block; }
+      .main-header .nav li a:hover, .main-header .nav li a:active {
+        background-color: transparent;
+        border-bottom-color: #acdacf; }
+  .main-header .nav .active a {
+    border-bottom: 2px solid #acdacf; }
 
 /*# sourceMappingURL=main.css.map */
