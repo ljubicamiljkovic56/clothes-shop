@@ -154,7 +154,8 @@ a {
   .main-header .logo {
     width: 104px; } }
 .intro-header {
-  position: relative; }
+  position: relative;
+  margin-bottom: 40px; }
   .intro-header h2 {
     font-size: 24px;
     color: #fff;
@@ -163,7 +164,8 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    width: 100%; }
     .intro-header h2::before, .intro-header h2::after {
       display: none; }
     .intro-header h2 span {
@@ -192,5 +194,48 @@ a {
     border-left: none;
     bottom: 10px;
     right: 10px; }
+
+#intro-slider .carousel-control {
+  background-image: none;
+  opacity: 1; }
+#intro-slider .carousel-indicators li {
+  width: 7px;
+  height: 7px;
+  margin: 0; }
+#intro-slider .arrow-left, #intro-slider .arrow-right {
+  width: 26px;
+  height: 48px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+#intro-slider .arrow-left {
+  background-image: url("../img/arrow-left.png");
+  left: 20%; }
+#intro-slider .arrow-right {
+  background-image: url("../img/arrow-right.png");
+  right: 20%; }
+
+@media (min-width: 768px) {
+  .intro-header > img {
+    display: none; }
+  .intro-header #intro-slider {
+    display: block; }
+    .intro-header #intro-slider .carousel-indicators {
+      bottom: 30px; }
+  .intro-header h2 {
+    padding: 30px 0;
+    width: 620px;
+    background-color: rgba(0, 0, 0, 0.3); }
+    .intro-header h2::before, .intro-header h2::after {
+      display: block; }
+  .intro-header #intro-slider .carousel-indicators {
+    bottom: 40px; } }
+@media (min-width: 1200px) {
+  .intro-header {
+    margin-bottom: 70px; }
+    .intro-header h2 {
+      font-size: 30px; }
+      .intro-header h2 span {
+        font-size: 96px; } }
 
 /*# sourceMappingURL=main.css.map */
