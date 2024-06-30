@@ -153,5 +153,44 @@ a {
 @media (min-width: 1200px) {
   .main-header .logo {
     width: 104px; } }
+.intro-header {
+  position: relative; }
+  .intro-header h2 {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .intro-header h2::before, .intro-header h2::after {
+      display: none; }
+    .intro-header h2 span {
+      font-size: 70px;
+      color: #ffce67;
+      display: block; }
+  .intro-header #intro-slider {
+    display: none; }
+
+.frame {
+  position: relative; }
+  .frame::before, .frame::after {
+    content: " ";
+    position: absolute;
+    width: 130px;
+    height: 60px;
+    display: block;
+    border: 3px solid #fff; }
+  .frame::before {
+    border-bottom: none;
+    border-right: none;
+    top: 10px;
+    left: 10px; }
+  .frame::after {
+    border-top: none;
+    border-left: none;
+    bottom: 10px;
+    right: 10px; }
 
 /*# sourceMappingURL=main.css.map */
