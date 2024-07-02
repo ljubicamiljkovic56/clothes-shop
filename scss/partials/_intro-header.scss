@@ -34,6 +34,7 @@
         height: 60px;
         display: block;
         border: 3px solid #fff;
+        z-index: 5;
     }
     &::before {
         border-bottom: none;
@@ -86,7 +87,7 @@
         #intro-slider {
             display: block;
             .carousel-indicators {
-                bottom: 30px;
+                bottom: 0;
             }
         }
         h2 {
@@ -116,6 +117,11 @@
             font-size: 30px;
             span {
                 font-size: 96px;
+            }
+        }
+        #intro-slider {
+            .carousel-indicators{
+                bottom: 10px;
             }
         }
     }
