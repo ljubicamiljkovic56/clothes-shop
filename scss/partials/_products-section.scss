@@ -46,4 +46,33 @@
             border-width: 2px;
         }
     }
+
+    .products-categories {
+        list-style: none;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        li {
+            display: inline-block;
+            margin-right: 8px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        a {
+            font-size: 14px;
+            text-transform: uppercase;
+            padding-top: 10px;
+            display: block;
+            border-top: 2px solid transparent;
+            &:hover {
+                border-top-color: $nav-active;
+            }
+        }
+        &:active {
+            border-top-color: $nav-active;
+            color: $link-hover;
+        }
+    }
 }

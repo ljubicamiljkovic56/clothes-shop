@@ -275,5 +275,27 @@ a {
   width: 70px;
   height: 40px;
   border-width: 2px; }
+.products-section .products-categories {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center; }
+  .products-section .products-categories li {
+    display: inline-block;
+    margin-right: 8px; }
+    .products-section .products-categories li:last-child {
+      margin-right: 0; }
+  .products-section .products-categories a {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    display: block;
+    border-top: 2px solid transparent; }
+    .products-section .products-categories a:hover {
+      border-top-color: #acdacf; }
+  .products-section .products-categories:active {
+    border-top-color: #acdacf;
+    color: #000000; }
 
 /*# sourceMappingURL=main.css.map */
