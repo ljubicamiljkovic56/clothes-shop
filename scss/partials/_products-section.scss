@@ -75,4 +75,47 @@
             color: $link-hover;
         }
     }
+    .product {
+        margin-bottom: 35px;
+        .product-image-holder {
+            margin-bottom: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+        > a {
+            display: block;
+        }
+        .hover-list {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            list-style: none;
+            margin: 0;
+            padding: 19px 0;
+            text-align: center;
+            background-color: transparentize(#85c3dc, .05);
+            li {
+                display: inline-block;
+                margin: 0 6%;
+            }
+        }
+        .product-title {
+            margin-bottom: 15px;
+            padding: 0 15px;
+            h3 {
+                font-size: 16px;
+                float: left;
+                margin-bottom: 0;
+                span {
+                    display: block;
+                }
+            }
+            > span {
+                float: right;
+                color: $link-hover;
+                text-transform: uppercase;
+            }
+        }
+    }
 }
