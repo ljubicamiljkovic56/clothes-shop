@@ -84,6 +84,9 @@
         }
         > a {
             display: block;
+            -webkit-transition: all .3s;
+            -moz-transition: all .3s;
+            transition: all .3s;
         }
         .hover-list {
             position: absolute;
@@ -115,6 +118,29 @@
                 float: right;
                 color: $link-hover;
                 text-transform: uppercase;
+            }
+        }
+        .color-picker {
+            padding: 0 15px;
+            li {
+                float: left;
+                margin-right: 5px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            a {
+                display: block;
+                width: 16px;
+                height: 16px;
+                text-indent: -9999px;
+            }
+        }
+        &:hover {
+            .product-image-holder {
+                > a {
+                    opacity: .6;
+                }
             }
         }
     }
