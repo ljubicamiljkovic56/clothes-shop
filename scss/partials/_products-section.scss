@@ -145,3 +145,38 @@
         }
     }
 }
+
+@media (max-width: 400px){
+    .article-clear {
+        width: 100%;
+    }
+}
+
+@media (min-width: 400px){
+    .products-section {
+        p {
+            margin-bottom: 25px;
+        }
+        .collections-holder {
+            a {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px){
+    .products-section {
+        p {
+            margin-bottom: 15px;
+        }
+        .collections-holder {
+            .frame {
+                &::before, &::after {
+                    width: 130px;
+                    height: 60px;
+                }
+            }
+        }
+    }
+}
