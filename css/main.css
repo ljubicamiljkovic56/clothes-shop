@@ -338,7 +338,6 @@ a {
     transition: all .3s; }
   .products-section .product .hover-list {
     position: absolute;
-    bottom: 0;
     left: 0;
     width: 100%;
     list-style: none;
@@ -390,6 +389,35 @@ a {
     margin-bottom: 15px; }
   .products-section .collections-holder .frame::before, .products-section .collections-holder .frame::after {
     width: 130px;
-    height: 60px; } }
+    height: 60px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s; }
+  .products-section .collections-holder .frame:hover::before {
+    top: 30px;
+    left: 30px; }
+  .products-section .collections-holder .frame:hover::after {
+    bottom: 30px;
+    right: 30px; }
+  .products-section .products-categories {
+    margin-bottom: 40px; }
+    .products-section .products-categories li {
+      margin-right: 50px; }
+      .products-section .products-categories li a {
+        font-size: 16px; } }
+@media (min-height: 992px) {
+  .products-section p {
+    margin-bottom: 70px; }
+  .products-section .collections-holder a {
+    margin-bottom: 65px; }
+  .products-section .products-categories {
+    margin-bottom: 45px; }
+  .products-section .product .product-image-holder .hover-list {
+    bottom: -60px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s; }
+  .products-section .product::hover {
+    bottom: 0; } }
 
 /*# sourceMappingURL=main.css.map */
