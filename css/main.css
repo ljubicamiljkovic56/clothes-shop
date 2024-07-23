@@ -460,12 +460,41 @@ a {
     .main-footer .footer-top .back-to-top {
       display: none; }
   .main-footer .footer-bottom {
-    padding: 15px 0s; }
+    padding: 15px 0; }
     .main-footer .footer-bottom .soc-net {
       text-align: center; }
       .main-footer .footer-bottom .soc-net li {
         display: inline-block; }
         .main-footer .footer-bottom .soc-net li:not(:last-child) {
           margin-right: 10px; }
+      .main-footer .footer-bottom .soc-net a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        text-indent: -9999px;
+        background-size: cover;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s; }
+        .main-footer .footer-bottom .soc-net a.ks {
+          background-image: url(../img/krojacevaskola.png); }
+        .main-footer .footer-bottom .soc-net a.fb {
+          background-image: url(../img/facebook.png); }
+        .main-footer .footer-bottom .soc-net a.tw {
+          background-image: url(../img/twitter.png); }
+        .main-footer .footer-bottom .soc-net a.in {
+          background-image: url(../img/instagram.png); }
+        .main-footer .footer-bottom .soc-net a.yt {
+          background-image: url(../img/youtube.png); }
+        .main-footer .footer-bottom .soc-net a:hover {
+          opacity: .8; }
+
+@media (min-width: 768px) {
+  .main-footer .footer-top h4 {
+    margin: 25px 0;
+    text-transform: uppercase;
+    font-size: 18px; }
+  .main-footer .footer-top li {
+    margin-bottom: 7px; } }
 
 /*# sourceMappingURL=main.css.map */
