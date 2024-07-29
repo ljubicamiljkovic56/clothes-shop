@@ -113,21 +113,22 @@ a {
     background-color: #cc0000;
     right: -8px;
     bottom: -8px; }
-.main-header .nav {
+
+.nav {
   padding-bottom: 5px; }
-  .main-header .nav li {
+  .nav li {
     text-align: center; }
-    .main-header .nav li a {
+    .nav li a {
       padding-left: 0;
       padding-right: 0;
       padding-bottom: 5px;
       border-bottom: 2px solid transparent;
       text-transform: uppercase;
       display: inline-block; }
-      .main-header .nav li a:hover, .main-header .nav li a:active {
+      .nav li a:hover, .nav li a:active {
         background-color: transparent;
         border-bottom-color: #acdacf; }
-  .main-header .nav .active a {
+  .nav .active a {
     border-bottom: 2px solid #acdacf; }
 
 @media (min-width: 768px) {
@@ -490,11 +491,48 @@ a {
           opacity: .8; }
 
 @media (min-width: 768px) {
-  .main-footer .footer-top h4 {
-    margin: 25px 0;
-    text-transform: uppercase;
-    font-size: 18px; }
-  .main-footer .footer-top li {
-    margin-bottom: 7px; } }
+  .main-footer .footer-top {
+    position: relative; }
+    .main-footer .footer-top h4 {
+      margin: 25px 0;
+      text-transform: uppercase;
+      font-size: 18px; }
+    .main-footer .footer-top li {
+      margin-bottom: 7px; }
+    .main-footer .footer-top .tags li {
+      margin-bottom: 10px;
+      float: left; }
+      .main-footer .footer-top .tags li:not(:last-child) {
+        margin-right: 10px; }
+      .main-footer .footer-top .tags li a {
+        padding: 6px 10px;
+        background-color: #95d9f6;
+        display: inline-block; }
+        .main-footer .footer-top .tags li a:hover {
+          color: #598091; }
+    .main-footer .footer-top .back-to-top {
+      display: block;
+      width: 40px;
+      height: 40px;
+      border: 1px solid #fff;
+      background-image: url("../img/back-to-top-white.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      text-indent: -9999px;
+      position: absolute;
+      right: 30px;
+      bottom: 30px;
+      cursor: pointer;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s; }
+      .main-footer .footer-top .back-to-top:hover {
+        background-image: url("../img/back-to-top-blue.png");
+        background-color: #fff; }
+  .main-footer .footer-bottom .soc-net {
+    float: left; }
+    .main-footer .footer-bottom .soc-net li a {
+      width: 20px;
+      height: 20px; } }
 
 /*# sourceMappingURL=main.css.map */
