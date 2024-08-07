@@ -1,0 +1,41 @@
+<div id="mainRow" class="row">
+        <script id="template" type="template">
+          <div class="col-xs-6 col-md-4 col-lg-3 article-clear">
+            <!-- Product -->
+            <article class="product">
+              <!-- Image Holder -->
+              <div class="product-image-holder">
+                <a href="#">
+                  <img src="img/{{imgSrc}}.jpg" alt="{{title}}" class="img-responsive">
+                </a>
+        
+                <!-- Hover list-->
+                <ul class="hover-list list-reset">
+                  <li><a href="#"><img src="img/shop-icon.png" alt="Shop icon"></a></li>
+                  <li><a href="#"><img src="img/view-icon.png" alt="View icon"></a></li>
+                  <li><a href="#"><img src="img/like-icon.png" alt="Like icon"></a></li>
+                </ul>
+                <!-- Hover list end-->
+              </div>
+              <!-- Image Holder end -->
+        
+              <!-- Product title -->
+              <div class="product-title clearfix">
+                <h3>"{{productTitle}}" <span>{{model}}</span></h3>
+                <span>{{price}}</span>
+              </div>
+              <!-- Product title end -->
+        
+              <!-- Color picker -->
+              <ul class="color-picker list-reset clearfix">
+                <li><a href="#" class="purple">Purple</a></li>
+                <li><a href="#" class="green">Green</a></li>
+                <li><a href="#" class="dark-gray">Dark grey</a></li>
+              </ul>
+              <!-- Color picker -->
+            </article>
+            <!-- Product end -->
+          </div>
+        </script>
+
+  </div>
